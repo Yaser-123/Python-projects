@@ -31,7 +31,7 @@ Contributions are not just welcome—they're encouraged! If you have ideas for a
 
 License 📝
 
-This project is licensed under the MIT License. See the [LICENSE](https://github.com/Yaser-123/Python-projects/blob/main/LICENSE)
+This project is licensed under the Creative Common Zero License. See the [LICENSE](https://github.com/Yaser-123/Python-projects/blob/main/LICENSE)
  file for more details.
 
 Thank you for checking out my Python Projects repository! I’ll be adding new projects every now and then, so be sure to keep an eye out! Happy coding, and let’s make some amazing things together! 🚀💡
