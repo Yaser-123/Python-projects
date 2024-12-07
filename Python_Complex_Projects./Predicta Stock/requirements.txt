@@ -4,5 +4,4 @@ numpy
 yfinance
 datetime
 prophet
-prophet.plot
 plotly
