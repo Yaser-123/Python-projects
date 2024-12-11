@@ -9,11 +9,11 @@ movies = pickle.load(open('movie_list.pkl', 'rb'))
 similarity = pickle.load(open('similarity.pkl', 'rb'))
 
 # YouTube API key
-API_KEY = 'AIzaSyCPfReIHNwph9Djb637k5rzKWyhct9xPa8'
+API_KEY = '{Your_Youtube_API}'
 
 def fetch_poster(movie_title):
     """Fetch movie poster URL using OMDb API."""
-    url = f"http://www.omdbapi.com/?t={movie_title}&apikey=7c04a58c"
+    url = f"http://www.omdbapi.com/?t={movie_title}&{OMDb API_KEY}"
     response = requests.get(url).json()
     poster_url = response.get("Poster", "https://via.placeholder.com/300x450?text=No+Image")
     return poster_url
